@@ -284,7 +284,7 @@ C:\Users\benja\IH-Labs\lab-bash\lorem-copy>findstr /n . sed.txt | findstr "^[8-9
 
 C:\Users\benja\IH-Labs\lab-bash\lorem-copy>findstr /n . sed.txt | findstr "^[8-9]:\|^10:"
 
---------------------------- BASH CHANGE -------------------------
+######--------------------------- BASH CHANGE -------------------------######
 
 
 benja@LAPTOP-HBNJRQMO MINGW64 ~
@@ -383,6 +383,82 @@ $ cat sed.txt | wc -l
 9
 
 benja@LAPTOP-HBNJRQMO MINGW64 ~/IH-Labs/lab-bash/lorem (master)
-$ find / -type f -name "lorem*" | wc -l
-find: ‘/tmp/msdtadmin’: Permission denied
+$ cd -
+/c/Users/benja/IH-Labs/lab-bash
+
+benja@LAPTOP-HBNJRQMO MINGW64 ~/IH-Labs/lab-bash (master)
+$ ls -Uba1 | grep '^lorem' | wc -l
+2
+
+---------------------- BONUS ---------------------
+
+benja@LAPTOP-HBNJRQMO MINGW64 ~
+$ read -p "please enter your name" my_name
+please enter your name Ben
+
+benja@LAPTOP-HBNJRQMO MINGW64 ~
+$ echo my_name
+my_name
+
+benja@LAPTOP-HBNJRQMO MINGW64 ~
+$ echo $my_name!
+Ben!
+
+benja@LAPTOP-HBNJRQMO MINGW64 ~
+$ dir
+00_Jupyter
+3D\ Objects
+AppData
+Application\ Data
+Calibre\ Library
+Contacts
+Cookies
+Dati\ applicazioni
+Desktop
+Documenti
+Downloads
+Evernote
+Favorites
+IH-Labs
+Impostazioni\ locali
+IntelGraphicsProfiles
+Links
+Menu\ Avvio
+MicrosoftEdgeBackups
+Modelli
+Music
+NTUSER.DAT
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+OneDrive
+Pictures
+Recenti
+Risorse\ di\ rete
+Risorse\ di\ stampa
+Saved\ Games
+Searches
+SendTo
+Sti_Trace.log
+Videos
+VirtualBox\ VMs
+anaconda3
+ansel
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+benja@LAPTOP-HBNJRQMO MINGW64 ~
+$ cd IH-Labs
+
+benja@LAPTOP-HBNJRQMO MINGW64 ~/IH-Labs
+$ cd IRONBEN
+
+benja@LAPTOP-HBNJRQMO MINGW64 ~/IH-Labs/IRONBEN (main)
+$ mkdir $my_name
+
+benja@LAPTOP-HBNJRQMO MINGW64 ~/IH-Labs/IRONBEN (main)
+$ dir
+Ben  README.md  about.txt
+
 
